@@ -37,8 +37,7 @@ jobs:
 
       - name: Test
         run: |
-          pytest || echo "Tests weren't found or failed, but continuing to the next step"
-
+          pytest || echo "Tests weren't found or they have failed, but continuing to the next step"
 
       - name: Push
         env:
