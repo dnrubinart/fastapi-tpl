@@ -1,0 +1,14 @@
+[project]
+name = "fastapi-tpl"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "asyncpg>=0.30.0",
+    "fastapi>=0.115.12",
+    "inflect>=7.5.0",
+    "pydantic-settings>=2.8.1",
+    "sqlalchemy>=2.0.40",
+    "uvicorn>=0.34.0",
+]
